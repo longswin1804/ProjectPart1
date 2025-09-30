@@ -1,3 +1,6 @@
+/*
+    javascript to mount upper and lower components
+*/ 
 function loadComponent(id, file) {
 	fetch(file)
 		.then(response => {
